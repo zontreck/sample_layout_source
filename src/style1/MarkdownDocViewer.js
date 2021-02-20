@@ -3,7 +3,7 @@ import { useCookies } from "react-cookie";
 import { Navbar, Nav, Card, Button } from "react-bootstrap";
 import ReactMarkdownWithHtml from "react-markdown/with-html";
 import gfm from "remark-gfm";
-
+import "./App.css";
 const MarkdownDocViewer = (props) => {
   const [cookies, setCookie] = useCookies(["opencollar"]);
   const [dark, setDark] = useState(true);
@@ -79,9 +79,7 @@ const MarkdownDocViewer = (props) => {
           left: 100,
         }}
       >
-        <Card
-          className={dark ? "bg-dark text-light" : "bg-light"}
-        >
+        <Card className={dark ? "bg-dark text-light" : "bg-light"}>
           <Card.Body>
             <ReactMarkdownWithHtml
               plugins={[gfm]}

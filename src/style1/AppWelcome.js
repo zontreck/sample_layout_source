@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useCookies } from "react-cookie";
 import { Navbar, Nav, Button } from "react-bootstrap";
+import "./App.css";
 
 const AppWelcome = (props) => {
   const [cookies, setCookie] = useCookies(["opencollar"]);
@@ -19,10 +20,7 @@ const AppWelcome = (props) => {
   }
   return (
     <div class="mainApp">
-      <Navbar
-        bg={dark ? "dark" : "light"}
-        variant={dark ? "dark" : "light"}
-      >
+      <Navbar bg={dark ? "dark" : "light"} variant={dark ? "dark" : "light"}>
         <Navbar.Brand href="/">OpenCollar</Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link href="/">Home</Nav.Link>
