@@ -80,7 +80,7 @@ const MarkdownDocViewer = (props) => {
         }}
       >
         <Card
-          className={dark ? "bg-dark text-light" : "bg-secondary text-dark"}
+          className={dark ? "bg-dark text-light" : "bg-secondary"}
         >
           <Card.Body>
             <ReactMarkdownWithHtml
