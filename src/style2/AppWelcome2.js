@@ -2,7 +2,7 @@ import React from "react";
 import { useCookies } from "react-cookie";
 import { Navbar, Nav } from "react-bootstrap";
 
-const AppWelcome = (props) => {
+const AppWelcome2 = (props) => {
   const [cookies, setCookie] = useCookies(["opencollar"]);
   if (cookies.dark == null || cookies.dark == "")
     setCookie("dark", "dark", {
@@ -14,4 +14,4 @@ const AppWelcome = (props) => {
   );
 };
 
-export default AppWelcome;
+export default AppWelcome2;

@@ -5,7 +5,7 @@ import ReactMarkdownWithHtml from "react-markdown/with-html";
 import ReactMarkdown from "react-markdown";
 import gfm from "remark-gfm";
 
-const MarkdownDocViewer = (props) => {
+const MarkdownDocViewer2 = (props) => {
   const [cookies, setCookie] = useCookies(["opencollar"]);
   const [dark, setDark] = useState(true);
   if (cookies.dark == null || cookies.dark == "") {
@@ -92,4 +92,4 @@ const MarkdownDocViewer = (props) => {
   );
 };
 
-export default MarkdownDocViewer;
+export default MarkdownDocViewer2;
