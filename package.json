@@ -1,12 +1,13 @@
 {
   "name": "sample_layout_source",
-  "homepage": "https://zontreck.github.io/sample_layout_source/",
+  "homepage": "https://zontreck.github.io/sample_layout_source",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "^2.0.5",
     "web-vitals": "^1.1.0"
   },
