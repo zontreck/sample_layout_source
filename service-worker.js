@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "https://zontreck.github.io/precache-manifest.1eaa7c2aeae21b0fcf241202fedaec89.js"
+  "https://zontreck.github.io/precache-manifest.1e676c1dc234869fbf78110834493509.js"
 );
 
 workbox.clientsClaim();
