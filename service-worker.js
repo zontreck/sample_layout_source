@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "https://zontreck.github.io/sample_layout_source/precache-manifest.e9344e4f8b67e294f0c91ff7ae5e823f.js"
+  "https://zontreck.github.io/sample_layout_source/precache-manifest.f16a64d061d4d4f2142f9dbf5bc7d448.js"
 );
 
 workbox.clientsClaim();
@@ -30,5 +30,5 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerNavigationRoute("https://zontreck.github.io/sample_layout_source/index.html", {
   
-  blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
+  blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
