@@ -6,8 +6,8 @@ import AppWelcome from "./AppWelcome";
 
 function App() {
   return (
-    <Router basename={"/sample_layout_source"}>
-      <Route path="/sample_layout_source" component={AppWelcome} />
+    <Router>
+      <Route path="/" component={AppWelcome} />
     </Router>
   );
 }

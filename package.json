@@ -1,6 +1,5 @@
 {
   "name": "sample_layout_source",
-  "homepage": "https://zontreck.github.io/sample_layout_source/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
