@@ -2,13 +2,12 @@ import React, { useState } from "react";
 import { useCookies } from "react-cookie";
 import { Navbar, Nav, Card, Button } from "react-bootstrap";
 import ReactMarkdownWithHtml from "react-markdown/with-html";
-import ReactMarkdown from "react-markdown";
 import gfm from "remark-gfm";
 
 const MarkdownDocViewer = (props) => {
   const [cookies, setCookie] = useCookies(["opencollar"]);
   const [dark, setDark] = useState(true);
-  if (cookies.dark == null || cookies.dark == "") {
+  if (cookies.dark === null || cookies.dark === "") {
     setCookie("dark", "dark", {
       path: "/",
     });

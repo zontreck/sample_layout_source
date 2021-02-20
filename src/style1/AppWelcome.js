@@ -5,7 +5,7 @@ import { Navbar, Nav, Button } from "react-bootstrap";
 const AppWelcome = (props) => {
   const [cookies, setCookie] = useCookies(["opencollar"]);
   const [dark, setDark] = useState(true);
-  if (cookies.dark == null || cookies.dark == "") {
+  if (cookies.dark === null || cookies.dark === "") {
     setCookie("dark", "dark", {
       path: "/",
     });
@@ -20,8 +20,8 @@ const AppWelcome = (props) => {
   return (
     <div class="mainApp">
       <Navbar
-        bg={cookies.dark == "dark" ? "dark" : "light"}
-        variant={cookies.dark == "dark" ? "dark" : "light"}
+        bg={dark ? "dark" : "light"}
+        variant={dark ? "dark" : "light"}
       >
         <Navbar.Brand href="/">OpenCollar</Navbar.Brand>
         <Nav className="mr-auto">
