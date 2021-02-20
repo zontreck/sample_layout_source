@@ -20,10 +20,9 @@ jobs:
             - name: Predeployment
               run: npm run predeploy
             - name: Deploy to GitHub Pages
-              run: |
-                git config --global user.email "tara@zontreck.dev"
-                git config --global user.name "zontreck"
-                git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}@github.com/zontreck/sample_layout_source.git
-                npm run deploy
+              uses: JamesIves/github-pages-deploy-action@4.0.0
+              with:
+                branch: gh-pages
+                folder: build
             - name: Confirmation of no error
               run: echo "Finished"
