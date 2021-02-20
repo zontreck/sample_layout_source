@@ -21,7 +21,7 @@ const MarkdownDocViewer = (props) => {
     xhr = new XMLHttpRequest();
     xhr.open(
       "GET",
-      "http://localhost:3000/docs/" + props.match.params.doc + ".md",
+      "https://zontreck.github.io/docs/" + props.match.params.doc + ".md",
       false
     );
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
