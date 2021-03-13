@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { HashRouter, Route, Switch } from "react-router-dom";
 import AppWelcome from "./AppWelcome";
 import NotFound from "./NotFound";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import MarkdownDocViewer from "./MarkdownDocViewer";
 import PluginAPIDocs from "./PluginAPIDocs";
 import AddonsAPIDoc from "./AddonsAPIDoc";
@@ -26,6 +26,9 @@ function App() {
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="#/api/plugin">Plugin API Docs</Nav.Link>
           <Nav.Link href="#/api/addons">Addons API Docs</Nav.Link>
+          <NavDropdown title="Pages">
+            
+          </NavDropdown>
         </Nav>
       </Navbar>
       <HashRouter>
