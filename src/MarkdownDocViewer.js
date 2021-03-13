@@ -1,10 +1,12 @@
 import React, { useState } from "react";
-import {Card} from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import ReactMarkdownWithHtml from "react-markdown/with-html";
 import gfm from "remark-gfm";
 import "./App.css";
 const MarkdownDocViewer = (props) => {
-  const [dark, setDark] = useState(props.dark);
+  const [dark, setDark] = useState("");
+
+  if (dark == "") setDark(props.dark);
 
   var xhr = null;
   const [downloadDone, setDownloadDone] = useState(false);

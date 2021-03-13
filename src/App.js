@@ -2,16 +2,15 @@ import React, { useState } from "react";
 import { HashRouter, Route, Switch } from "react-router-dom";
 import AppWelcome from "./AppWelcome";
 import NotFound from "./NotFound";
-import { Navbar, Nav, Card, Button, Form } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import MarkdownDocViewer from "./MarkdownDocViewer";
 import PluginAPIDocs from "./PluginAPIDocs";
 import AddonsAPIDoc from "./AddonsAPIDoc";
 
 function App() {
-  const [dark, setDark] = useState(
-    window.matchMedia("(prefers-color-scheme: dark)").matches
-  );
-
+  const [dark, setDark] = useState("");
+  if (dark == "")
+    setDark(window.matchMedia("(prefers-color-scheme: dark)").matches);
   if (dark) {
     document.body.style = "background: black; color: white;";
   } else {

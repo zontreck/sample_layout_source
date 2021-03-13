@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Card, Table } from "react-bootstrap";
+import React from "react";
+import { Card} from "react-bootstrap";
 import Highlight from "react-highlight";
 
 const AddonsAPIDoc = (props) => {
