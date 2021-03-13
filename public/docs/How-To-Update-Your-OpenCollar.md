@@ -1,9 +1,4 @@
----
-layout: home
-title: How To Update Your OpenCollar
----
-
-This page covers four ways to update a collar easily: | [From Scratch](#from-scratch-with-collarizer) | [3.X or Older](#from-3x-or-older) | [4-6.5](#from-v4x-to-6x) | [6.6 to 6.7](#from-v6x)  
+This page covers four ways to update a collar easily: | [From Scratch] | [3.X or Older] | [4-6.5] | [6.6 to 6.7]  
 The Updater listens on channel -7483213; and on -7483214 when updating older collars (3.X)  
 
 # Current version
@@ -67,4 +62,4 @@ Some third party collars block the use of an OpenCollar V7 updater even though s
 5. Rez OpenCollar updater 7.4 next to the collar. 
 7. Edit the collar again, and add the collarizer script to contents. The updater will run.  
 
-Consult [How To Build your OpenCollar](/docs/How-to-Build-Your-OpenCollar) for more details and illustrations.
+Consult [How To Build your OpenCollar](#/docs/How-to-Build-Your-OpenCollar) for more details and illustrations.

@@ -17,10 +17,10 @@ Chat commands take the form `[prefix] call [value]`.  The space between prefix, 
 
 **Using your prefix**:  Suppose your name is Joe Zipcode (joezipcode).  To call the menu you would type:  jo menu . If you want to send the command to channel one it will be `/1 jo menu`.
 
-[More About [Prefixes, Chat Commands and Other NonMenu Functions](/docs/Prefixes,-Chat-Commands-and-Other-Non-Menu-Functions)
+[More About [Prefixes, Chat Commands and Other NonMenu Functions](#/docs/Prefixes,-Chat-Commands-and-Other-Non-Menu-Functions)
 
 ## Settings
-Your collar settings can be saved to a settings notecard.  See the [Settings](/docs/Settings) page for more about how to do this.  In the pages of the Complete Guide after the chat command for a menu function you may see a string that looks like this, with the values filled in:  `TOKEN=Attribute~Value`.  This is the settings string for the function you can save to a notecard. The easy way to learn settings is to set your collar as desired, then go to the Settings menu and press Print.  
+Your collar settings can be saved to a settings notecard.  See the [Settings](#/docs/Settings) page for more about how to do this.  In the pages of the Complete Guide after the chat command for a menu function you may see a string that looks like this, with the values filled in:  `TOKEN=Attribute~Value`.  This is the settings string for the function you can save to a notecard. The easy way to learn settings is to set your collar as desired, then go to the Settings menu and press Print.  
 - **Security Note:** Settings saved to a settings notecard will reload and reinstate the setting when the wearer relogs or when the Settings are loaded by the menu.  This means a settings notecard can reinstate things you thought you had removed, such as owners.  **DO NOT** accept a collar as a gift from any person or group you do not know and trust.  
 - If you received your collar from anyone other than an official OpenCollar vendor, find the Settings prim.  If there is a .settings notecard in the Settings prim, open it and make sure it is blank.  A new collar from an OpenCollar vendor comes without a .settings notecard.
 
@@ -30,20 +30,20 @@ When you open the main menu you will see buttons that go to all the different co
 
 ## Capture  
 
-If you want just an occasional adventure, Capture might be a good way to start using your collar. Turn Capture on in the App  Menu and nearby avatars can capture your collar.  See more in [Apps](/docs/Apps).
+If you want just an occasional adventure, Capture might be a good way to start using your collar. Turn Capture on in the App  Menu and nearby avatars can capture your collar.  See more in [Apps](#/docs/Apps).
 - Only your Captor can end the Capture event by releasing you.  
 - However, if you need to get away, you can always use the collar safeword (RED), see below!
 
 ## Access
 You are wearing a collar because you want someone else at some time to be able to control your avatar.  The degree of control you give is up to you.  To give someone else access to your collar, open the collar menu and press access, or type [prefix] access.  
 
-In the Access menu you can add Owners, Trusted, or set group or public access.  If you set an owner you lose your default owner access to your collar. It is best not to set an owner till you are sure you want to give that person full control over your collar. **If you want to retain owner level control on your collar, go to Access > + Owner and select WEARER before adding an owner.**  Your owner however can uncheck that if they choose to.  More about [Access](/docs/Access) here.
+In the Access menu you can add Owners, Trusted, or set group or public access.  If you set an owner you lose your default owner access to your collar. It is best not to set an owner till you are sure you want to give that person full control over your collar. **If you want to retain owner level control on your collar, go to Access > + Owner and select WEARER before adding an owner.**  Your owner however can uncheck that if they choose to.  More about [Access](#/docs/Access) here.
 
 ## Safeword
 
 Your collar has a safeword chat command that is built into every menu in the collar.  Using the safeword will reset all collar restrictions, without changing the collar access.  The collar safeword also clears the relay.
 
-The default collar safeword is RED, all caps.  You can also type it on channel 1 `/1 RED` or in ooc brackets which cannot be blocked by an RLV command `((RED))`.  See [NonMenu Functions](/docs/Prefixes,-Chat-Commands-and-Other-Non-Menu-Functions) for more.
+The default collar safeword is RED, all caps.  You can also type it on channel 1 `/1 RED` or in ooc brackets which cannot be blocked by an RLV command `((RED))`.  See [NonMenu Functions](#/docs/Prefixes,-Chat-Commands-and-Other-Non-Menu-Functions) for more.
 
 ## Runaway
 
@@ -54,6 +54,6 @@ If you find you must clear an owner, you can do that by pressing the Runaway but
 RLV (Restrained Love Viewer) is a set of permissions coded into the viewer, that allows other avatars limited control over some viewer functions. There are several approved third party viewers that allow you to enable / disable RLV. Among the most popular for many users are Firestorm, Restrained Love Viewer, and Singularity. **Please note** turning on RLV alone is not enough to enforce any RLV restrictions in world. For that you need to wear or rez a scripted object you own to invoke those restrictions.  OpenCollar is one of many available RLV scripted objects.
 
 OpenCollar uses RLV to enforce the Collar Lock in the Main Menu.  The rest of the RLV functions in the collar can be found in the RLV menu.  Push Clear All in the RLV menu to clear these restrictions (not available to wearers who are not self owned).  
-- The collar Relay converts RLV commands from objects the wearer does not own. Relay permissions are not affected by the Access settings. See more in the Complete User Guide [RLV](/docs/RLV)and [Relay](/docs/Relay) pages.
+- The collar Relay converts RLV commands from objects the wearer does not own. Relay permissions are not affected by the Access settings. See more in the Complete User Guide [RLV](#/docs/RLV)and [Relay](#/docs/Relay) pages.
 
 Please remember that one of the most basic safety features about RLV is your ability to turn it off and on in the viewer. Any RLV restriction can be cleared by turning off RLV and relogging; or logging on in the official SL Viewer. Some groups claim to use "extreme RLV" that cannot be turned off.  This is not possible in any approved third party viewer.  Beware of downloading any viewer code that claims to alter this basic safety function.  

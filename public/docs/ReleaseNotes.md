@@ -332,18 +332,19 @@ OC 7.2 release is mainly a maintenance release. That's to say that most of the c
 
 Many people helped produce this version with their ideas, support, and wits.  Here is the list of contributors:
 
+*    Aria (tashia.redrose)
+*    Niria Metamour
+*    Medea Destiny
+*    North Glenwalker
+*    Restless Swords
+*    Salt (Salt Peppermint)
+*    ròan (silkie.sabra)
+*    Caoimhe (mailani19)
+*    Riej
+*    Agesly Danzig
+*    Toy Wylie
 
-    Aria (tashia.redrose)
-    Niria Metamour
-    Medea Destiny
-    North Glenwalker
-    Restless Swords
-    Salt (xxsaltandpepperxx)
-    ròan (silkie.sabra)
-    Caoimhe (mailani19)
-    Riej
-    Agesly Danzig
-    Toy Wylie
+
 
 ## 7.1
 

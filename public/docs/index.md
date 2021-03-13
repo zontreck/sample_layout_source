@@ -9,7 +9,7 @@
 # CURRENT FULL RELEASE:  OPEN COLLAR V 8.0.2
 
 Dateline 10 April, 2020.  
-OpenCollar V 8 is in! You can see the [Release Notes](https://opencollar.cc/ReleaseNotes) here.
+OpenCollar V 8 is in! You can see the [Release Notes](#/docs/ReleaseNotes) here.
 
 ## New in OpenCollar V 8:   
 New Features:
@@ -34,12 +34,12 @@ Please report any bugs you find or feature requests to the OpenCollar bug tracke
 
 OpenCollar help can be found at our [Headquarters](http://maps.secondlife.com/secondlife/KBar%20West/28/80/1201).  Also see the following for our lists of partners and applications to become one!
 
-- Distributors -- Please visit our official [Distributors](/OpenCollar-Distributors-and-Designers) for OpenCollar vendors and so much more!
-- Designers -- For wonderful designers, and an impressive list of creators, visit our [Design Partners](/Open-Collar-Designers)!
+- Distributors -- Please visit our official [Distributors](#/docs/OpenCollar-Distributors-and-Designers) for OpenCollar vendors and so much more!
+- Designers -- For wonderful designers, and an impressive list of creators, visit our [Design Partners](#/docs/OpenCollar-Designers)!
 
 # User Guide and Other Useful Links
-- [Quick User Guide](/docs/Quick-User-Guide)  
-- [Complete User Guide](/docs/Complete-User-Guide)    
-- [How to Update Your OpenCollar](/docs/How-To-Update-Your-OpenCollar)  
-- [Release Notes](https://opencollar.cc/ReleaseNotes)  
-- [List of Contributors](/Contributors)       
+- [Quick User Guide](#/docs/Quick-User-Guide)  
+- [Complete User Guide](#/docs/Complete-User-Guide)    
+- [How to Update Your OpenCollar](#/docs/How-To-Update-Your-OpenCollar)  
+- [Release Notes](#/docs/ReleaseNotes)  
+- [List of Contributors](#/docs/Contributors)       

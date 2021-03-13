@@ -6,17 +6,11 @@ import MarkdownDocViewer from "./MarkdownDocViewer";
 
 const AppWelcome = (props) => {
   const [cookies, setCookie] = useCookies(["opencollar"]);
-  const [dark, setDark] = useState(true);
-  if (cookies.dark === null || cookies.dark === "") {
-    setCookie("dark", "dark", {
-      path: "/",
-    });
-    setDark(true);
-  }
+  const [dark, setDark] = useState(props.dark);
 
   return (
     <div class="mainApp">
-      <MarkdownDocViewer manualPath="index" />
+      <MarkdownDocViewer match = {{params : {doc:"index"}}} dark={dark} />
     </div>
   );
 };

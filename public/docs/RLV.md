@@ -1,4 +1,4 @@
-See in this page:  [Exceptions](#exceptions) | [Force Sit](#force-sit) | [Restrictions](#restrictions) | [Folders](#folders) 
+See in this page:  [Exceptions] | [Force Sit] | [Restrictions] | [Folders]
 
 To call the RLV menu:
 >[prefix] rlv
@@ -81,7 +81,7 @@ The individual restrictions are grouped in submenus for convenience but are appl
 > addattach, remattach, addoutfit, remoutfit
 
 ## Relay
-This button in RLV brings up the relay menu.  See [Relay](/docs/Relay) for more.
+This button in RLV brings up the relay menu.  See [Relay](#/docs/Relay) for more.
 To call the relay menu:
 >[prefix] relay
 

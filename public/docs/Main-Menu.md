@@ -10,11 +10,11 @@ The remaining links each take you to the respective menu accessible from the Mai
 
 # Other Menus
 
-* [Access](/docs/Access) -- controls and adjusts who can access the collar.   
-* [Weld](/docs/Weld) -- Welds the collar.  Unweld is controlled by an external rezzed object or HUD.
-* [Animations](/docs/Animations) -- controls single and couples animations, links to the AO, Antislide
-* [Apps](/docs/Apps) -- Standard, Optional and Custom Applications internal to the collar.
-* [Leash](/docs/Leash) -- controls taking, releasing, and passing the leash.
-* [RLV](/docs/RLV) -- controls RLV restrictions, exceptions, folders, and relay.
-* [Settings](/docs/Settings) -- controls printing, saving, and loading saved settings. Adjusts the size, position and appearance of the collar.
-* [Help / About](/docs/Help-About) -- for collar help notecards, license, and updating.
+* [Access](#/docs/Access) -- controls and adjusts who can access the collar.   
+* [Weld](#/docs/Weld) -- Welds the collar.  Unweld is controlled by an external rezzed object or HUD.
+* [Animations](#/docs/Animations) -- controls single and couples animations, links to the AO, Antislide
+* [Apps](#/docs/Apps) -- Standard, Optional and Custom Applications internal to the collar.
+* [Leash](#/docs/Leash) -- controls taking, releasing, and passing the leash.
+* [RLV](#/docs/RLV) -- controls RLV restrictions, exceptions, folders, and relay.
+* [Settings](#/docs/Settings) -- controls printing, saving, and loading saved settings. Adjusts the size, position and appearance of the collar.
+* [Help / About](#/docs/Help-About) -- for collar help notecards, license, and updating.

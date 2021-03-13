@@ -1,4 +1,4 @@
-See in this page: [Bell](#bell) | [Bookmarks](#bookmarks) | [Capture](#capture) | [Label](#label) | [Outfits](#outfits) | [Titler](#titler)   
+See in this page: [Bell] | [Bookmarks] | [Capture] | [Label] | [Outfits] | [Titler]  
 
 # Apps Main Menu
 
@@ -75,7 +75,7 @@ In collars built with a label only.  There are two versions of the label app, on
 **Font:** changes the font of the label text. `[prefix] label font`  
 
 # Outfits
-See:  [Outfits](/docs/Outfits)
+See:  [Outfits](#/docs/Outfits)
 
 # Owner Online
 

@@ -5,41 +5,43 @@ import ReactMarkdownWithHtml from "react-markdown/with-html";
 import gfm from "remark-gfm";
 import "./App.css";
 const MarkdownDocViewer = (props) => {
-  if (props.manualPath != null) {
-    props.match.params.doc = props.manualPath;
-  }
+
   const [cookies, setCookie] = useCookies(["opencollar"]);
-  const [dark, setDark] = useState(true);
-  if (cookies.dark === null || cookies.dark === "") {
-    setCookie("dark", "dark", {
-      path: "/",
-    });
-    setDark(true);
-  }
+  const [dark, setDark] = useState(props.dark);
 
   var xhr = null;
   const [downloadDone, setDownloadDone] = useState(false);
   const [MDText, setMDText] = useState("download did not occur");
+  const [workingPath, setWorkingPath] = useState("");
   if (!downloadDone) {
     xhr = new XMLHttpRequest();
     xhr.open(
       "GET",
-      "https://opencollar.cc/docs/" + props.match.params.doc + ".md",
+      "http://localhost:3000/docs/" + props.match.params.doc + ".md",
       false
     );
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     xhr.addEventListener("load", () => {
       if (xhr.readyState === 4) {
+        if(MDText !== xhr.responseText && MDText !== "download did not occur")window.location.reload();
         setMDText(xhr.responseText);
       }
     });
 
     xhr.send();
     setDownloadDone(true);
+    setWorkingPath(props.match.params.doc);
   }
 
+  const checkWorkingPath = () =>{
+    if(workingPath !== props.match.params.doc){
+      setMDText("download did not occur");
+      setDownloadDone(false);
+    }
+  };
   return (
     <div>
+      {downloadDone && checkWorkingPath()}
       <div
         style={{
           width: "75vw",

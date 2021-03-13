@@ -1,6 +1,6 @@
 Visit any of the SLURLs below to get a copy of the current OpenCollar, or an updater to bring your existing collar up to date. The slurls are as close as possible to the vendor; you may have to use Area Search or follow the red map arrow to get there from a fixed landing point.
-Looking for a unique collar design? Go here: [Design Partners](https://opencollar.cc/Open-Collar-Designers)
-How Do I Apply to be a Distributor or Design Partner? Look here! [Application](#opencollar-partners-application-form)
+Looking for a unique collar design? Go here: [Design Partners](#/docs/OpenCollar-Designers)
+How Do I Apply to be a Distributor or Design Partner? Look here! [Application](#/docs/OpenCollar-Designers-Application)
 
 Look for this image on the vendor:
 
@@ -224,44 +224,3 @@ Beach, Sailing, & Blake Sea Access
 Yannis Boucher, Fallen Angels BDSM Club  
 BDSM Club  
 [http://maps.secondlife.com/secondlife/Crystal%20Cove%20II/90/137/3925](http://maps.secondlife.com/secondlife/Crystal%20Cove%20II/90/137/3925)  
-
-# OpenCollar Partners Application Form
-
-Want to receive an OpenCollar Vendor and get on this list? Copy the text below to a notecard and send it to Silkie Sabra inworld.
-
-OpenCollar Official Partners
-
-OpenCollar offers the Official Partners program for people who wish to host a publicly accessible OpenCollar vendor..  Official Partners are listed on a page on the OpenCollar website/wiki, and we'll refer users to that page when they inquire about where to find OpenCollar-based products.
-
-To qualify as an OpenCollar Official Partner, collar distributors agree to the following*:
-
---Requirements
-
-1. Place the vendor in a publicly accessible parcel with no ban lines and no prior restrictions to access except for cause or TOS violations such as age play.   
-2. Do not host vendors for OpenCollar products that fail to meet the standards for Designers (see below).  
-3. If an official OpenCollar Partner also distributes house or privately produced collars with altered scripts or settings, the collars must comply with the OpenCollar license where applicable. The modifications must be clearly marked and wearers informed.
-
---Benefits
-
-1. Name  and inworld location SLURL listed on OpenCollar's Official Partners page.  
-2. An initial announcement to the OpenCollar group that you've been made an Official Partner.  
-3. The right to use the "OpenCollar Official Partner" name in the description of your inworld parcel.  
-
-APPLICATION
-
-If you would like to sign up for the Official Partners program, please make a notecard named  "OpenCollar Official Partners Application - (your user name)", and include the information indicated below.  Then pass it to Silkie Sabra, OpenCollar Partners Coordinator.
-
-DISTRIBUTORS AND DESIGNERS:
-
-SecondLife Username:  
-* The User Name
-
-Secondlife Avatar UUID:
-* The Avatar UUID is your key or the string of characters at the top of your profile.  
-
-Inworld Location SLURL:  
-* The SLURL should be to the spot you plan to rez the vendor, even if your sim has a fixed landing point.  
-
-Name and brief description of your sim:  Playground | Roleplay | Shop | Club | Sandbox | Other
-
-* Distributors may be removed from the list if they fail to meet any of the above specifications.  

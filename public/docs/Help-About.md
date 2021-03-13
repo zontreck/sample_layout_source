@@ -11,4 +11,4 @@ Delivers the notecard copy of the OpenCollar License
 # News
 When checked, delivers OpenCollar news items  
 # Update  
-Searches for a nearby updater. `[prefix] update`.  See also [How to Update](/docs/How-To-Update-Your-OpenCollar).
+Searches for a nearby updater. `[prefix] update`.  See also [How to Update](#/docs/How-To-Update-Your-OpenCollar).

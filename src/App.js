@@ -1,21 +1,16 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { HashRouter, Route, Switch } from "react-router-dom";
 import AppWelcome from "./AppWelcome";
 import NotFound from "./NotFound";
-import { useCookies } from "react-cookie";
-import { Navbar, Nav, Card, Button } from "react-bootstrap";
+import { Navbar, Nav, Card, Button, Form } from "react-bootstrap";
 import MarkdownDocViewer from "./MarkdownDocViewer";
+import PluginAPIDocs from "./PluginAPIDocs";
+import AddonsAPIDoc from "./AddonsAPIDoc";
 
 function App() {
-  const [cookies, setCookie] = useCookies(["opencollar"]);
-  const [dark, setDark] = useState(true);
-
-  if (cookies.dark === null || cookies.dark === "") {
-    setCookie("dark", "dark", {
-      path: "/",
-    });
-    setDark(true);
-  }
+  const [dark, setDark] = useState(
+    window.matchMedia("(prefers-color-scheme: dark)").matches
+  );
 
   if (dark) {
     document.body.style = "background: black; color: white;";
@@ -29,43 +24,44 @@ function App() {
         <Navbar.Brand href="/">OpenCollar</Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="#/docs/doc">Sample document</Nav.Link>
-          <Button
-            onClick={() => {
-              setCookie("dark", "dark", {
-                path: "/",
-              });
-              setDark(true);
-            }}
-          >
-            Set Dark Mode
-          </Button>{" "}
-          <Button
-            onClick={() => {
-              setCookie("dark", "light", {
-                path: "/",
-              });
-              setDark(false);
-            }}
-          >
-            Set Light Mode
-          </Button>
+          <Nav.Link href="#/api/plugin">Plugin API Docs</Nav.Link>
+          <Nav.Link href="#/api/addons">Addons API Docs</Nav.Link>
         </Nav>
       </Navbar>
       <HashRouter>
         <Switch>
-          <Route exact path="/" component={AppWelcome} />
+          <Route
+            exact
+            path="/"
+            render={(props) => {
+              return <AppWelcome dark={dark} />;
+            }}
+          />
           <Route
             exact
             path="/docs/:doc"
             render={(props) => {
-              return <MarkdownDocViewer {...props} />;
+              return <MarkdownDocViewer dark={dark} {...props} />;
+            }}
+          />
+          <Route
+            exact
+            path="/api/plugin"
+            render={(props) => {
+              return <PluginAPIDocs dark={dark} {...props} />;
+            }}
+          />
+          <Route
+            exact
+            path="/api/addons"
+            render={(props) => {
+              return <AddonsAPIDoc dark={dark} {...props} />;
             }}
           />
           <Route
             path="*"
             render={(props) => {
-              return <NotFound {...props} />;
+              return <NotFound {...props} dark={dark} />;
             }}
           />
         </Switch>
