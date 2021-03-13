@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useCookies } from "react-cookie";
 import { Navbar, Nav, Button } from "react-bootstrap";
 import "./App.css";
-import MarkdownDocViewer from "MarkdownDocViewer";
+import MarkdownDocViewer from "./MarkdownDocViewer";
 
 const AppWelcome = (props) => {
   const [cookies, setCookie] = useCookies(["opencollar"]);
