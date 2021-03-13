@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "https://zontreck.github.io/static/css/main.7eea0d4a.chunk.css",
-    "main.js": "https://zontreck.github.io/static/js/main.6f90fbf9.chunk.js",
-    "main.js.map": "https://zontreck.github.io/static/js/main.6f90fbf9.chunk.js.map",
+    "main.js": "https://zontreck.github.io/static/js/main.56fbe101.chunk.js",
+    "main.js.map": "https://zontreck.github.io/static/js/main.56fbe101.chunk.js.map",
     "runtime-main.js": "https://zontreck.github.io/static/js/runtime-main.603cca47.js",
     "runtime-main.js.map": "https://zontreck.github.io/static/js/runtime-main.603cca47.js.map",
     "static/css/2.4c97ca4f.chunk.css": "https://zontreck.github.io/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.8d5fc1a8.chunk.js": "https://zontreck.github.io/static/js/2.8d5fc1a8.chunk.js",
-    "static/js/2.8d5fc1a8.chunk.js.map": "https://zontreck.github.io/static/js/2.8d5fc1a8.chunk.js.map",
+    "static/js/2.a1833164.chunk.js": "https://zontreck.github.io/static/js/2.a1833164.chunk.js",
+    "static/js/2.a1833164.chunk.js.map": "https://zontreck.github.io/static/js/2.a1833164.chunk.js.map",
     "index.html": "https://zontreck.github.io/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "https://zontreck.github.io/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.7eea0d4a.chunk.css.map": "https://zontreck.github.io/static/css/main.7eea0d4a.chunk.css.map",
-    "static/js/2.8d5fc1a8.chunk.js.LICENSE.txt": "https://zontreck.github.io/static/js/2.8d5fc1a8.chunk.js.LICENSE.txt"
+    "static/js/2.a1833164.chunk.js.LICENSE.txt": "https://zontreck.github.io/static/js/2.a1833164.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.603cca47.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.8d5fc1a8.chunk.js",
+    "static/js/2.a1833164.chunk.js",
     "static/css/main.7eea0d4a.chunk.css",
-    "static/js/main.6f90fbf9.chunk.js"
+    "static/js/main.56fbe101.chunk.js"
   ]
 }
