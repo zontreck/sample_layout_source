@@ -46,18 +46,22 @@ const PluginAPIDocs = (props) => {
       Response: "LOADPIN",
     },
     {
-        Number: -2576,
-        ID: "LINK_CMD_RESTRICTIONS",
-        Description: "A signal exchanged by rlvsuite and rlvextension to indicate active restrictions",
-        Example: 'llMessageLinked(LINK_SET, LINK_CMD_RESTRICTIONS, "unsit=n=-1", "");',
-        Response: ""
+      Number: -2576,
+      ID: "LINK_CMD_RESTRICTIONS",
+      Description:
+        "A signal exchanged by rlvsuite and rlvextension to indicate active restrictions",
+      Example:
+        'llMessageLinked(LINK_SET, LINK_CMD_RESTRICTIONS, "unsit=n=-1", "");',
+      Response: "",
     },
     {
-        Number: -2577,
-        ID: "LINK_CMD_RESTDATA",
-        Description: "A signal exchanged by rlvsuite and rlvextension to indicate active exceptions",
-        Example: 'llMessageLinked(LINK_SET, LINK_CMD_RESTDATA, "MinCamDist=0.328", kMenuUser);',
-        Response: ""
+      Number: -2577,
+      ID: "LINK_CMD_RESTDATA",
+      Description:
+        "A signal exchanged by rlvsuite and rlvextension to indicate active exceptions",
+      Example:
+        'llMessageLinked(LINK_SET, LINK_CMD_RESTDATA, "MinCamDist=0.328", kMenuUser);',
+      Response: "",
     },
     {
       Number: -9000,
@@ -511,11 +515,6 @@ const PluginAPIDocs = (props) => {
   return (
     <div>
       <Card
-        style={{
-          position: "absolute",
-          left: "5%",
-          top: "4%",
-        }}
         className="mb-2"
         bg={props.dark ? "dark" : "light"}
         text={props.dark ? "white" : "dark"}
@@ -544,6 +543,12 @@ const PluginAPIDocs = (props) => {
             <tbody>{Codes.map(RenderExample)}</tbody>
           </Table>
         </Card.Body>
+        <Card.Footer>
+          Contributors: <br />
+          Tashia Redrose - 03/2021 JSX formatted Documentation
+          <br />
+          Caraway Ohmai - 2020 Markdown formatted Documentation
+        </Card.Footer>
       </Card>
     </div>
   );

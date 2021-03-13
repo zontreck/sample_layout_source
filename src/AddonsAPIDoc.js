@@ -1,5 +1,5 @@
 import React from "react";
-import { Card} from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import Highlight from "react-highlight";
 
 const AddonsAPIDoc = (props) => {
@@ -9,14 +9,9 @@ const AddonsAPIDoc = (props) => {
   return (
     <div>
       <Card
-        style={{
-          position: "absolute",
-          top: "5%",
-          left: "5%",
-          width: "90vw",
-        }}
         bg={props.dark ? "dark" : "light"}
         text={props.dark ? "white" : "dark"}
+        style={{ width: "100vw" }}
       >
         <Card.Header>
           <center>Addons API Documentation</center>
