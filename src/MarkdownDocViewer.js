@@ -1,12 +1,9 @@
 import React, { useState } from "react";
-import { useCookies } from "react-cookie";
 import { Navbar, Nav, Card, Button } from "react-bootstrap";
 import ReactMarkdownWithHtml from "react-markdown/with-html";
 import gfm from "remark-gfm";
 import "./App.css";
 const MarkdownDocViewer = (props) => {
-
-  const [cookies, setCookie] = useCookies(["opencollar"]);
   const [dark, setDark] = useState(props.dark);
 
   var xhr = null;
@@ -17,13 +14,14 @@ const MarkdownDocViewer = (props) => {
     xhr = new XMLHttpRequest();
     xhr.open(
       "GET",
-      "http://localhost:3000/docs/" + props.match.params.doc + ".md",
+      "https://zontreck.github.io/docs/" + props.match.params.doc + ".md",
       false
     );
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     xhr.addEventListener("load", () => {
       if (xhr.readyState === 4) {
-        if(MDText !== xhr.responseText && MDText !== "download did not occur")window.location.reload();
+        if (MDText !== xhr.responseText && MDText !== "download did not occur")
+          window.location.reload();
         setMDText(xhr.responseText);
       }
     });
@@ -33,8 +31,8 @@ const MarkdownDocViewer = (props) => {
     setWorkingPath(props.match.params.doc);
   }
 
-  const checkWorkingPath = () =>{
-    if(workingPath !== props.match.params.doc){
+  const checkWorkingPath = () => {
+    if (workingPath !== props.match.params.doc) {
       setMDText("download did not occur");
       setDownloadDone(false);
     }
