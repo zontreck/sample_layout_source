@@ -25,8 +25,8 @@ function App() {
         <Nav className="mr-auto">
           <Nav.Link href="/">Home</Nav.Link>
           <NavDropdown title="API">
-            <Nav.Link href="#/api/plugin">Plugin API Docs</Nav.Link>
-            <Nav.Link href="#/api/addons">Addons API Docs</Nav.Link>
+            <NavDropdown.Item href="#/api/plugin">Plugin API Docs</NavDropdown.Item>
+            <NavDropdown.Item href="#/api/addons">Addons API Docs</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="#/docs/Complete-User-Guide">Complete User Guide</Nav.Link>
           <Nav.Link href="#/docs/Quick-User-Guide">Quick User Guide</Nav.Link>
