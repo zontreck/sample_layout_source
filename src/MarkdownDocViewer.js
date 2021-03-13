@@ -4,9 +4,7 @@ import ReactMarkdownWithHtml from "react-markdown/with-html";
 import gfm from "remark-gfm";
 import "./App.css";
 const MarkdownDocViewer = (props) => {
-  const [dark, setDark] = useState("");
 
-  if (dark == "") setDark(props.dark);
 
   var xhr = null;
   const [downloadDone, setDownloadDone] = useState(false);
@@ -51,7 +49,7 @@ const MarkdownDocViewer = (props) => {
           left: 100,
         }}
       >
-        <Card className={dark ? "bg-dark text-light" : "bg-light"}>
+        <Card className={props.dark ? "bg-dark text-light" : "bg-light"}>
           <Card.Body>
             <ReactMarkdownWithHtml
               plugins={[gfm]}

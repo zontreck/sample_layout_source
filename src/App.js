@@ -8,9 +8,10 @@ import PluginAPIDocs from "./PluginAPIDocs";
 import AddonsAPIDoc from "./AddonsAPIDoc";
 
 function App() {
-  const [dark, setDark] = useState("");
-  if (dark == "")
-    setDark(window.matchMedia("(prefers-color-scheme: dark)").matches);
+  const [dark, setDark] = useState(
+    window.matchMedia("(prefers-color-scheme: dark)").matches
+  );
+
   if (dark) {
     document.body.style = "background: black; color: white;";
   } else {
